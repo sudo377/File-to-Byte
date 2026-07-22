@@ -24,10 +24,6 @@ A simple C utility that converts any binary file into a C header (`.h`) containi
 When you run the program:
 
 ```text
-========================================
-         Binary to C Converter
-========================================
-
 [+] Enter file path >>
 ```
 
@@ -50,36 +46,3 @@ unsigned char data[] = {
 
 unsigned int data_size = 12345;
 ```
-
-## Compilation
-
-Using GCC:
-
-```bash
-gcc main.c -o BinaryToC
-```
-
-## Usage
-
-Run the executable:
-
-```bash
-BinaryToC
-```
-
-Enter the path to the file you want to convert.
-
-The generated `output.h` file will be created in the same directory as the executable.
-
-## Use Cases
-
-* Embed fonts (`.ttf`) directly into your application.
-* Embed images without shipping external files.
-* Store binary resources inside your executable.
-* Create self-contained C/C++ projects.
-* Game development.
-* Embedded systems.
-
-## License
-
-This project is released under the MIT License.
